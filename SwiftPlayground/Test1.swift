@@ -37,9 +37,11 @@ func leakDemo(){
 @main
 struct Main {
     static func main(){
-        leakDemo()
-        print("end program")
-        //start()
+        churn()
+//        closerLeakDemo()
+//        //leakDemo()
+//        print("end program")
+//        //start()
     }
 }
 

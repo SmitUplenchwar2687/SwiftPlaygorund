@@ -17,13 +17,11 @@ final class Tracked {
 }
 
 
-
 func scopeDemo() {
     let a = Tracked(1)
     global = a
     print("We have \(a.id)")
 }
-
 
 func start() {
     scopeDemo()
